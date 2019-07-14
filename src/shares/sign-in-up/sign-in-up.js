@@ -3,6 +3,7 @@ import './sign-in-up.css';
 import logo from '../../images/logo.png';
 import '../../config/index';
 import {Link} from "react-router-dom";
+import MyForm from "../component/myForm/myForm";
 
 const borderColor = {
     color: '#ea6f5a',
@@ -43,6 +44,10 @@ class SignInUp extends Component {
                         <Link to="/signInUp/1" className='font16' style={Number(this.state.signType) === 1 ? borderColor : null}>登录</Link>
                         <div className='font27'>&middot;</div>
                         <Link to="/signInUp/2" className='font16' style={Number(this.state.signType) === 2 ? borderColor : null}>注册</Link>
+                    </div>
+
+                    <div>
+                        <MyForm></MyForm>
                     </div>
                 </div>
             </div>
