@@ -24,7 +24,7 @@
 
 .sign_main{
     width: 400px;
-    height: 500px;
+    height: 550px;
     margin: auto;
     background-color: #ffffff;
     position: absolute;
@@ -64,3 +64,39 @@
     border-bottom: #ea6f5a;
     font-size: 20px;
 }
+
+.login-form {
+    min-width: 300px;
+    /*padding: 0 auto;*/
+}
+
+.login-form-forgot {
+    float: right;
+    color: #999;
+}
+
+.login-form-forgot:hover{
+    color: #000;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.formCenter{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.width300{
+    padding: 0 50px;
+}
+
+.width300 span{
+    font-size: 12px;
+    color: #b5b5b5;
+}
+
