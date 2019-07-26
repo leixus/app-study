@@ -49,12 +49,12 @@ class Header extends Component {
                     <div style={header100}></div>
                     <div style={flex}>
                         <div style={flex2}>
-                            <div className='inlineBlock fontSize16'>
-                                <Icon type="smile" />
+                            <div className='inlineBlock fontSize16' style={{'fontSize': '18px', 'fontWeight': 'bold'}}>
+                                <i className='icon iconfont icon-zhinanzhenfaxiandaohangdizhiweizhi'></i>
                                 <span style={{'marginLeft': '5px'}}>首页</span>
                             </div>
                             <div className='inlineBlock fontWidth'>
-                                <Icon type="cloud-download" />
+                                <i className='icon iconfont icon-phone' style={{'fontSize': '18px', 'fontWeight': 'bold'}}></i>
                                 <span style={{'marginLeft': '5px'}}>下载APP</span>
                             </div>
                             <div className='inlineBlock marginLeft30'>
@@ -78,9 +78,9 @@ class Header extends Component {
                                 <Link to="/signInUp/1" style={{color: '#969696'}}>登录</Link>
                             </div>
                             <div className='registered'>
-                                注册
+                                <Link style={{color: '#ea6f5a'}} to="/signInUp/2 ">注册</Link>
                             </div>
-                            <div className='write-essay'>
+                            <div className='write-essay '>
                                 <span className='iconfont icon-yumaobi'></span>
                                 <span> </span>
                                 <span>写文章</span>
